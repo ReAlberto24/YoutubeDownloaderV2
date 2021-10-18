@@ -1,0 +1,11 @@
+# %u = User Name
+# 0 = Default Windows Download 
+# 1 = Project Download
+# Example: C:\Users\%u\Desktop\
+downloadDir: 1
+
+# DO NOT CHANGE
+gui: 0
+
+# SAME
+illegalChars: ['\\', '/', ':', '*', '?', '<', '>', '|', '.', ',', "'", '"', '%', '$']

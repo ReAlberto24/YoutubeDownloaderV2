@@ -1,0 +1,5 @@
+files:
+
+dirs:
+  - "__pycache__"
+  - "temp"

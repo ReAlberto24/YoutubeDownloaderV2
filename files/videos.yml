@@ -1,0 +1,73 @@
+1080p:
+  10fps: 137
+  20fps: 137
+  24fps: 137
+  25fps: 137
+  30fps: 137 
+  48fps: 299
+  50fps: 299
+  60fps: 299
+  default: [137, 299]
+  
+720p:
+  p10fps: 22
+  10fps: 136
+  p20fps: 22
+  20fps: 136
+  p24fps: 22
+  24fps: 136
+  p25fps: 22
+  25fps: 136
+  p30fps: 22
+  30fps: 136
+  48fps: 298
+  50fps: 298
+  60fps: 298
+  default: [136, 298]
+
+480p:
+  10fps: 135
+  20fps: 135
+  24fps: 135
+  25fps: 135
+  30fps: 135
+  default: 135
+
+360p:
+  p10fps: 18
+  10fps: 134
+  p20fps: 18
+  20fps: 134
+  p24fps: 18
+  24fps: 134
+  p25fps: 18
+  25fps: 134
+  p30fps: 18
+  30fps: 134
+  default: 134
+
+240p:
+  10fps: 133
+  20fps: 133
+  24fps: 133
+  25fps: 133
+  30fps: 133
+  default: 133
+
+144p:
+  p6fps: 17
+  p8fps: 17
+  p10fps: 17
+  10fps: 160
+  p12fps: 17
+  20fps: 160
+  24fps: 160
+  25fps: 160
+  30fps: 160
+  default: 160
+
+audio:
+  48kbps: [139, 'mp4']
+  128kbps: [140, 'mp4']
+  160kbps: [251, 'webm']
+  default: 251
