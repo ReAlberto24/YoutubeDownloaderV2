@@ -73,8 +73,8 @@ class download:
         video = youtube.streams.get_by_itag(vidid)
         audio = youtube.streams.get_by_itag(audid)
 
-        os.mkdir('temp')
-        os.chdir('temp')
+        os.mkdir('YDv2-api-tempdir')
+        os.chdir('YDv2-api-tempdir')
 
         illegalChars = config['illegalChars']
         yttitle = youtube.title
@@ -88,9 +88,9 @@ class download:
         subprocess.run(f'ffmpeg -i audio.{audtype} audio.mp3', shell=False, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
 
         os.chdir('..')
-        subprocess.run(fr'ffmpeg -i temp\video.mp4 -i temp\audio.mp3 -c copy "{downloadDir}\{yttitle}.mp4"', shell=False, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
+        subprocess.run(fr'ffmpeg -i YDv2-api-tempdir\video.mp4 -i YDv2-api-tempdir\audio.mp3 -c copy "{downloadDir}\{yttitle}.mp4"', shell=False, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
 
-        shutil.rmtree('temp') 
+        shutil.rmtree('YDv2-api-tempdir') 
 
     def audio(youtube=None, audqual=None, downloadDir=None) -> None:
         '''
@@ -109,8 +109,8 @@ class download:
 
         audio = youtube.streams.get_by_itag(audid)
 
-        os.mkdir('temp')
-        os.chdir('temp')
+        os.mkdir('YDv2-api-tempdir')
+        os.chdir('YDv2-api-tempdir')
 
         illegalChars = config['illegalChars']
         yttitle = youtube.title
@@ -120,6 +120,6 @@ class download:
         audio.download(filename=f'audio.{audtype}')
 
         os.chdir('..')
-        subprocess.run(fr'ffmpeg -i temp\audio.{audtype} {downloadDir}\audio.mp3', shell=False, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
+        subprocess.run(fr'ffmpeg -i YDv2-api-tempdir\audio.{audtype} {downloadDir}\audio.mp3', shell=False, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
 
-        shutil.rmtree('temp') 
+        shutil.rmtree('YDv2-api-tempdir') 

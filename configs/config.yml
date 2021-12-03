@@ -4,8 +4,17 @@
 # Example: C:\Users\%u\Desktop\
 downloadDir: 1
 
+# Language used
+# Usable languages: de, en, es, fr, it
+# de: German, Deutsch
+# en: English
+# es: Spanish, Español
+# fr: French, Français
+# it: Italian, Italiano
+language: en
+
 # DO NOT CHANGE
 gui: 0
 
 # SAME
-illegalChars: ['\\', '/', ':', '*', '?', '<', '>', '|', '.', ',', "'", '"', '%', '$']
+illegalChars: ['\\', '/', ':', '*', '?', '<', '>', '|', '.', ',', "'", '"', '%', '$', '~']

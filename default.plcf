@@ -1,0 +1,129 @@
+#! Version: 2.0.0
+#! TabType: standards.space, TabSize: 4
+
+# Languages translated from english 
+# from me: it
+# from Google (Translate): de, es, fr
+
+languageDict languages: {
+    'detuch': 'de',
+    'english': 'en',
+    'spanish': 'es',
+    'french': 'fr',
+    'italian': 'it'
+}
+
+# $%0 = video quality
+# $%1 = audio quality
+# $%2 = video name
+# $%3 = audio name
+
+languageList de: [
+    'YouTube Link: ',
+    'Prüfen, ob Video vorhanden ist.',
+    'Video gefunden.',
+    'Video nicht gefunden.',
+    'Mit welcher Video-/Audioqualität',
+    'Sie möchten dieses Video herunterladen?',
+    'Bitte wählen Sie unten aus.',
+    'Videoqualität ($%0)',
+    'Audioqualität ($%1)',
+    'Laden von Konfigurationen. (videos.yml, config.yml)',
+    'Abrufen von Konfigurationen.',
+    'Laden von Streams. (streams.xml)',
+    'Erstellen eines temporären Verzeichnisses.',
+    'Videonamen abrufen.',
+    'Video herunterladen. (video.mp4)',
+    'Audio herunterladen. ($%3)                                                 ',
+    'Umwandeln von $%3 in audio.mp3.                                            ',
+    'Hinzufügen von video.mp4 und audio.mp3.',
+    'Video speichern. ($%2)'
+]
+
+languageList en: [
+    'YouTube Link: ',
+    'Checking if video exist.',
+    'Video found.',
+    'Video not found.',
+    'With what video/audio quality',
+    'you want to download this video?',
+    'Please select from down below.',
+    'Video quality ($%0)',
+    'Audio quality ($%1)',
+    'Loading configs. (videos.yml, config.yml)',
+    'Getting configs.',
+    'Loading streams. (streams.xml)',
+    'Creating temporary directory.',
+    'Getting video name.',
+    'Downloading video. (video.mp4)',
+    'Downloading audio. ($%3)                                                   ',
+    'Trasforming $%3 to audio.mp3.                                              ',
+    'Adding video.mp4 and audio.mp3.',
+    'Saving video. ($%2)'
+]
+
+languageList es: [
+    'Enlace de YouTube: ',
+    'Comprobando si existe video.',
+    'Video encontrado.',
+    'Video no encontrado.',
+    'Con que calidad de video / audio',
+    'quieres descargar este video?',
+    'Por favor seleccione de abajo abajo.',
+    'Calidad de video ($%0)',
+    'Calidad de audio ($%1)',
+    'Cargando config. (videos.yml, config.yml)',
+    'Obteniendo configs.',
+    'Cargando arroyos. (streams.xml)',
+    'Creando directorio temporal.',
+    'Obteniendo el nombre del video.',
+    'Descargando video. (video.mp4)                                             ',
+    'Descargando audio. ($%3)                                                   ',
+    'Transformando $%3 en audio.mp3.',
+    'Añadiendo video.mp4 y audio.mp3.',
+    'Guardando video. ($%2)'
+]
+
+languageList fr: [
+    'Lien YouTube: ',
+    'Vérifier si la vidéo existe.',
+    'Vidéo trouvée.',
+    'Vidéo non trouvée.',
+    'Avec quelle qualité vidéo/audio',
+    'tu veux télécharger cette vidéo ?',
+    'Veuillez sélectionner ci-dessous.',
+    'Qualité vidéo ($%0)',
+    'Qualité audio ($%1)',
+    'Chargement des configurations. (vidéos.yml, config.yml)',
+    'Obtenir des configurations.',
+    'Chargement des flux. (flux.xml)',
+    'Création d un répertoire temporaire.',
+    'Obtenir le nom de la vidéo.',
+    'Téléchargement de la vidéo. (vidéo.mp4)                                    ',
+    'Téléchargement audio. ($%3)                                                ',
+    'Transformation de $%3 en audio.mp3.',
+    'Ajout de video.mp4 et audio.mp3.',
+    'Enregistrement de la vidéo. ($%2) '
+]
+
+languageList it: [
+    'Link di YouTube: ',
+    'Controllando se il video esiste.',
+    'Video trovato.',
+    'Video non trovato.',
+    'Con quale qualità video/audio',
+    'vuoi scaricare questo video?',
+    'Perfavore seleziona da qui sotto.',
+    'Qualità video ($%0)',
+    'Qualità audio ($%1)',
+    'Caricando configurazioni. (videos.yml, config.yml)',
+    'Prendendo configurazioni.',
+    'Caricando le streams. (streams.xml)',
+    'Creando la cartella temporanea.',
+    'Prendendo il nome del video.',
+    'Scaricando il video. (video.mp4)',
+    'Scaricando l audio. ($%3)                                                   ' ,
+    'Transformando $%3 in audio.mp3.                                              ' ,
+    'Aggiungendo video.mp4 e audio.mp3.',
+    'Salvanddo il video. ($%2)'
+]

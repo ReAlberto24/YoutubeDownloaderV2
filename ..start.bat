@@ -1,6 +1,6 @@
 @echo off
-echo (Project) Loading
-python\python.exe .init.py
+rem echo (Project) Loading
+rem python\python.exe .init.py
 python\python.exe .clean.py
 echo (Project) Start
 echo.

@@ -1,4 +1,28 @@
+# Python
 __pycache__/
-essentials.py
+
+## About not finished gui
 gui.py
 guiConfig/
+
+## About exe build
+__main__.exe
+*.spec
+build/
+dist/
+
+# Portable Youtube Downloader v2
+PYDv2/
+PYDv2.zip
+PYDv2.7z
+PYDv2.tar.gz
+PYDv2.rar
+
+# Main program
+YDv2.zip
+YDv2.7z
+YDv2.tar.gz
+YDv2.rar
+
+# Old Languages
+lang/ 
